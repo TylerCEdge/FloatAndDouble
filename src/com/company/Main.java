@@ -35,5 +35,11 @@ public class Main {
         System.out.println(value);
 
         // When precise calculations are required Java has a class called BigDecimal you should use instead.
+
+        // Char can only store a single character
+        char newChar = 'D';
+        char uniChar = '\u0044';
+        System.out.println(newChar);
+        System.out.println(uniChar);
     }
 }
