@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
 	    // Floating numbers have fractional parts that we express with a decimal point.
         float minFloat = Float.MIN_VALUE;
         float maxFloat = Float.MAX_VALUE;
@@ -38,8 +39,16 @@ public class Main {
 
         // Char can only store a single character
         char newChar = 'D';
-        char uniChar = '\u0044';
+        char uniChar = '\u00a9';
         System.out.println(newChar);
         System.out.println(uniChar);
+
+        // Boolean can only be set to true or false
+
+        boolean bTrue = true;
+        boolean bFalse = false;
+
+        boolean isCustomerOverTwentyOne = true;
+
     }
 }
